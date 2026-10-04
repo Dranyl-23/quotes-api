@@ -1,0 +1,16 @@
+{
+  "name": "quotes-api",
+  "version": "1.0.0",
+  "description": "Quotes REST API (in-memory)",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js"
+  },
+  "author": "Alfie Lynard Polacas",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^5.1.0"
+  }
+}
